@@ -1546,3 +1546,11 @@ h1, h2, h3, h4, h5, h6, figure {
     }
 }
 /*# sourceMappingURL=style.css.map */
+
+.videologo {
+  width: 200px;
+}
+
+.videologo-nav {
+  height: 40px;
+}
