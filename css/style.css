@@ -351,14 +351,15 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slider-text {
   display: table;
   opacity: 0;
+  margin-top: 150px;
   min-height: 700px;
   z-index: 9;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
   min-height: 700px;
-}
+  }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1, #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   margin: 0;
   padding: 0;
@@ -1548,7 +1549,7 @@ h1, h2, h3, h4, h5, h6, figure {
 /*# sourceMappingURL=style.css.map */
 
 .videologo {
-  width: 200px;
+  height: 62px;
 }
 
 .videologo-nav {
