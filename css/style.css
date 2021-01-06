@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-hero {
-  min-height: 700px;
+  min-height: 150px;
   background: #fff url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-hero .btn {
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 700px;
+  min-height: 150px;
   position: relative;
 }
 #fh5co-hero .flexslider .slides li:after {
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   content: '';
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.25);
   z-index: 1;
 }
 #fh5co-hero .flexslider .flex-control-nav {
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slider-text > .slider-text-inner {
   display: table-cell;
   vertical-align: top;
-  min-height: 700px;
+  min-height: 150px;
   }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1, #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   margin: 0;
@@ -1591,4 +1591,14 @@ h1, h2, h3, h4, h5, h6, figure {
 .staff-nombres:hover::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+#vid {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 90px;
+  margin-right: 10px;
+  z-index: -1;
+  object-fit: cover;
 }
